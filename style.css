@@ -76,6 +76,31 @@ nav {
   content:'↗';
   font-size:22px
 }
+.btn-lime {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:11px;
+  background:var(--lime);
+  color:var(--ink);
+  font-size:18px;
+  font-weight:800;
+  letter-spacing:.02em;
+  padding:19px 34px;
+  border-radius:3px;
+  line-height:1
+}
+.btn-lime .ico {
+  width:24px;
+  height:24px;
+  flex:none
+}
+.hero-cta {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:14px
+}
 .btn.lime {
   background:var(--lime);
   color:var(--ink)
@@ -575,6 +600,10 @@ a:focus-visible,summary:focus-visible {
 .bar-short {
   display:none
 }
+.cta-bar .btn-lime {
+  font-size:16px;
+  padding:15px 28px
+}
 .closing {
   padding-bottom:calc(85px + var(--bar-h))
 }
@@ -596,6 +625,15 @@ footer {
   .cta-bar {
     gap:12px;
     padding:10px 4%
+  }
+  .cta-bar .btn-lime {
+    font-size:15px;
+    padding:13px 18px;
+    gap:8px
+  }
+  .cta-bar .btn-lime .ico {
+    width:20px;
+    height:20px
   }
   .cta-bar p {
     font-size:12px
@@ -633,6 +671,15 @@ footer {
   }
   .row {
     font-size:13px
+  }
+  /* 押しやすいよう、ファーストビューのボタンは横幅いっぱいにする */
+  .hero-cta {
+    display:grid;
+    gap:12px
+  }
+  .btn-lime {
+    font-size:17px;
+    padding:18px 20px
   }
   .solution h3 {
     font-size:clamp(19px,5.5vw,23px)
