@@ -630,6 +630,11 @@ footer {
   .solution h3 {
     font-size:clamp(19px,5.5vw,23px)
   }
+  /* 文節の途中で折り返さない（HTML側の<span class="pb">と対）。
+     560pxを超える画面では inline のままなので見た目は変わらない */
+  .pb {
+    display:inline-block
+  }
 }
 @media(prefers-reduced-motion:reduce) {
   .cta-bar {
