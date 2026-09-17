@@ -36,4 +36,12 @@ LINE公式アカウント（LMP共通）: https://lin.ee/vV1leDB
 
 ## 公開
 
-未公開。GitHub Pagesに出す場合は `lmp-next-era-lp` と同じ手順。
+- 公開URL: https://nrealize6078-hue.github.io/lmp-rental-future-lp/
+- リポジトリ: https://github.com/nrealize6078-hue/lmp-rental-future-lp （public）
+- GitHub Pages（main / ルート）。**検索エンジンに掲載する設定**（noindexは入れていない）
+
+更新するときは、このフォルダで編集して commit → push すれば1〜2分で反映される。
+
+```bash
+git add -A && git commit -m "内容を修正" && git push
+```
