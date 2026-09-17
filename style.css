@@ -608,6 +608,29 @@ footer {
     font-size:17px
   }
 }
+/* ── スマホ（560px以下）──
+   元サイトは800px以下の1段階しか無く、課題セクションが2列のままで
+   カード幅164pxに見出し19pxが入り、<br>の区切りがさらに折り返されていた */
+@media(max-width:560px) {
+  .pain-grid {
+    grid-template-columns:1fr
+  }
+  .flow {
+    grid-template-columns:1fr
+  }
+  h2 {
+    font-size:clamp(23px,7.2vw,29px)
+  }
+  .pivot h2 {
+    font-size:clamp(25px,8.1vw,31px)
+  }
+  .closing h2 {
+    font-size:clamp(25px,8.1vw,31px)
+  }
+  .solution h3 {
+    font-size:clamp(19px,5.5vw,23px)
+  }
+}
 @media(prefers-reduced-motion:reduce) {
   .cta-bar {
     transition:none
