@@ -630,6 +630,9 @@ footer {
   .solution h3 {
     font-size:clamp(19px,5.5vw,23px)
   }
+  .hero h1 {
+    font-size:clamp(35px,11.2vw,42px)
+  }
   /* 文節の途中で折り返さない（HTML側の<span class="pb">と対）。
      560pxを超える画面では inline のままなので見た目は変わらない */
   .pb {
