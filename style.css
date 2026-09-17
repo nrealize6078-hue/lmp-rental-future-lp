@@ -1,3 +1,6 @@
+[hidden] {
+  display:none!important
+}
 :root {
   --ink:#101d35;
   --blue:#123edd;
@@ -511,9 +514,10 @@ a:focus-visible,summary:focus-visible {
   border-radius:4px;
   text-align:center
 }
-.lc-h {
+.closing .line-card .lc-h {
   font-size:20px;
   font-weight:700;
+  color:var(--ink);
   margin:0
 }
 .closing .line-card .lc-t {
